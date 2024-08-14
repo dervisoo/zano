@@ -13,7 +13,7 @@
 #define CURRENCY_FORMATION_VERSION                      98
 #endif
 
-#define CURRENCY_GENESIS_NONCE                          (CURRENCY_FORMATION_VERSION + 101011010121) //bender's nightmare
+#define CURRENCY_GENESIS_NONCE                          (CURRENCY_FORMATION_VERSION + 101010010110) //bender's nightmare
 
 
                                                         
@@ -110,11 +110,11 @@
 
 
 #ifndef TESTNET
-#define P2P_DEFAULT_PORT                                11121
-#define RPC_DEFAULT_PORT                                11211
-#define STRATUM_DEFAULT_PORT                            11777
+#define P2P_DEFAULT_PORT                                22222
+#define RPC_DEFAULT_PORT                                22223
+#define STRATUM_DEFAULT_PORT                            22224
 #define P2P_NETWORK_ID_TESTNET_FLAG                     0
-#define P2P_MAINTAINERS_PUB_KEY                         "8f138bb73f6d663a3746a542770781a09579a7b84cb4125249e95530824ee607"
+#define P2P_MAINTAINERS_PUB_KEY                         "8f138bb73f6d663a3746a542770781a09579a7b84cb4125249e95530824ee608"
 #define DIFFICULTY_POS_STARTER                          1
 #else 
 #define P2P_DEFAULT_PORT                                (11112 + CURRENCY_FORMATION_VERSION)
