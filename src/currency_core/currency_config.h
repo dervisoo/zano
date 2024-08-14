@@ -8,9 +8,9 @@
 
 
 #ifndef TESTNET
-#define CURRENCY_FORMATION_VERSION                      84
+#define CURRENCY_FORMATION_VERSION                      1
 #else
-#define CURRENCY_FORMATION_VERSION                      98
+#define CURRENCY_FORMATION_VERSION                      1
 #endif
 
 #define CURRENCY_GENESIS_NONCE                          (CURRENCY_FORMATION_VERSION + 101010010110) //bender's nightmare
